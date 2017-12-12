@@ -32,7 +32,7 @@ function badMethod(myArray) {
     }
 }
 
-function optimizedMethod(myArray) {
+function betterMethod(myArray) {
     for (let idx = 0; idx < myArray.length; idx += 1) {
         let isDup;
         for (let ptr = 0; ptr < myArray.length; ptr += 1) {
@@ -47,7 +47,7 @@ function optimizedMethod(myArray) {
     }
 }
 
-function betterMethod(myArray) {
+function optimizedMethod(myArray) {
     for (let idx = 0; idx < myArray.length; idx += 1) {
         let isDup;
         for (let ptr = idx; ptr < myArray.length; ptr += 1) {
