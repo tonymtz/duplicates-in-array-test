@@ -1,0 +1,16 @@
+{
+  "name": "fun",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --require babel-core/register ./src"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
